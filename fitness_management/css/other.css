@@ -1,0 +1,316 @@
+html, body{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
+/* styling for getmebership template */
+.header{
+  color: #000000;
+  text-align: center;
+  background-color: #00d5da;
+  margin-top: 70px;
+  font-size: 18px;
+  height: 50px;
+  padding-top: 15px;
+  width: 100%;
+}
+.text{
+  color: #ffffff;
+  background-color: #00999d;
+  font-size: 18px;
+  height: 300px;
+  width: 100%;
+  padding-left: 30px;
+  text-overflow: clip;
+  padding-top: 30px;
+}
+@media(max-width:550px){
+  .text{
+    background-color: #00999d;
+    height: 250px;
+  }
+}
+@media(max-width:350px){
+  .text{
+    background-color: #00999d;
+    height: 350px;
+  }
+}
+
+.monthly{
+  color: #000000;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.row{
+  margin-top: 50px;
+}
+#diet{
+  position: relative;
+  color: #000000;
+
+}
+#icons{
+  width: 10%;
+  height: 30px;
+}
+
+/* end of styling for get membership */
+
+
+
+/* for diet styiling */
+
+#diet{
+  width: 100%;
+  height: 500px;
+}
+@media(max-width:576px){
+  #diet{
+    width: 100%;
+    height: 400px;
+  }
+}
+/* end of styling  for diet */
+
+
+
+/* styling for dietdescribe */
+
+#dietdescribe{
+  color: #000000;
+  margin-top: 100px;
+}
+#image{
+  width: 10%;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#header{
+  text-align: center;
+}
+/* end of styling for dietdescribe */
+
+
+/* styling for result */
+#result-header{
+  font-weight: bold;
+  text-align: center;
+}
+#resultimage{
+  width: 100%;
+  height: 400px;
+}
+
+#result01{
+  padding-top: 80px;
+}
+
+/* end of stylin for result */
+
+
+
+#heading{
+  color: #00999D;
+  text-align: center;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-gap: 10px;
+}
+
+#img-grid {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* styling for about us */
+#about-bg{
+  background-color: #00999d;
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+
+}
+#about-head{
+  padding-top: 150px;
+  color: #ffffff;
+}
+#about-text{
+  color: #ffffff;
+  padding-top: 50px;
+}
+@media(max-width:992px){
+  #about-text{
+    color: #ffffff;
+    padding-top: 50px;
+    font-size: 15px;
+  }
+}
+@media(max-width:767px){
+  #about-head{
+    padding-top: 10px;
+    color: #ffffff;
+  }
+  #about-text{
+    color: #ffffff;
+    padding-top: 20px;
+  }
+}
+@media(max-width:300px){
+  #about-bg{
+    height: 700px;
+  }
+}
+/* end of styling for about us */
+
+
+
+
+
+/* styling for trainig */
+#training-head{
+  margin-top: 150px;
+  text-align: center;
+}
+#training-img{
+  width: 100%;
+  height: 350px;
+}
+#training-c-title{
+  text-align: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 100px;
+}
+/* end of styling for traning */
+
+
+/* styling for equipment */
+#boxes{
+  width: 40%;
+  height: 30%;
+  background-color:#ffffff;
+  position:absolute;
+  z-index: 3;
+
+}
+#equipment{
+  width: 100%;
+  height: 450px;
+}
+@media(max-width:576px){
+  #equipment{
+    height: 350px;
+  }
+}
+
+#equip-link{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  overflow:
+}
+@media(min-width:730px){
+  #equip-link{
+    width: 40%;
+  }
+}
+#equip-link a:link{
+  text-decoration: none;
+  color: #000000;
+}
+#equip-link a:visited{
+  color: #000000;
+}
+
+.lead{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+/* end of styling for equipment */
+
+
+/* styling for cotact us */
+#map{
+  position: relative;
+  height: 0;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+
+}
+#map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh
+}
+@media(max-width:350px){
+  #map iframe{
+    width: 100%;
+    height: 60vh;
+  }
+  #map{
+    height: 60vh;
+  }
+}
+/* stylin for contact form in contacus.php */
+#contact-form{
+  position: absolute;
+  font-size: 20px;
+  top: 20px;
+  line-height: 5px;
+  color: #ffffff;
+  width: 50%;
+  margin-left: 20%;
+  white-space:pre-line;
+}
+#contact-us{
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+#contact-us-head{
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+}
+#contact-head{
+  position: absolute;
+  top: 20px;
+  margin-left: 5%;
+  font-size: 25px;
+  color: #ffffff;
+  width: 50%;
+}
+@media(max-width:500px){
+  #contact-head{
+    font-size: 20px;
+  }
+}
+/* end of styling for contact us */
+/* styling for success text */
+
+#success{
+  margin: 25%;
+}
+/* end of styling for success text */

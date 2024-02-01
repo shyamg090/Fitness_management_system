@@ -1,0 +1,238 @@
+html, body{
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+/* styling for nav bar */
+#navbar{
+  z-index: 1;
+  width:100%;
+}
+#navbar a:link{
+  color:#ffffff;
+}
+#navbar a:active{
+  color: #00999d;
+}
+#navbar a:hover{
+  text-decoration: none;
+  color: #ffb13d;
+}
+#navbar a:visited{
+  color: #ffffff;
+}
+#navbar a:visited:hover{
+  color: #ffb13d;
+}
+/* styling for menu and responsive */
+#menu:hover{
+  cursor: pointer;
+  color: #ffb13d;
+}
+
+#menu:visited{
+  color: #ffffff;
+}
+#menu{
+  margin-top: 15px;
+  color: #ffffff;
+}
+@media(max-width:350px){
+  #logo{
+    width: 80px;
+    height: 30px;
+  }
+  #menu{
+    font-size: 13px;
+  }
+  #navbar a:link{
+    font-size: 13px;
+  }
+}
+
+
+ /* end styling for menu and responsive */
+/* end of stying nav bar */
+
+/* styling for modal body */
+#modal{
+  display: none;
+  position: fixed;
+  z-index:2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+#modal-content{
+  width: 25%;
+  left: 0;
+  top: 0;
+  background-color: #212121;
+  height: 100vh;
+}
+#menu-links{
+  padding: 30px;
+  font-size: 25px;
+}
+#menu-links a:link {
+  color: #ffffff;
+}
+#menu-links a:visited{
+  color: #ffffff;
+
+}
+#menu-links a:hover{
+  color: #ffb13d;
+  text-decoration: none;
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #ffb13d;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width: 800px){
+  #modal-content{
+    width: 40%;
+    left: 0;
+    top: 0;
+    background-color: #212121;
+    height: 100vh;
+  }
+}
+@media (max-width: 500px){
+  #modal-content{
+    width: 60%;
+    left: 0;
+    top: 0;
+    background-color: #212121;
+    height: 100vh;
+  }
+}
+@media (max-width: 400px){
+  #modal-content{
+    width: 80%;
+    left: 0;
+    top: 0;
+    background-color: #212121;
+    height: 100vh;
+  }
+}
+@media (max-width: 350px){
+  #modal-content{
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #212121;
+    height: 100vh;
+  }
+}
+/* end of the styling for modal */
+
+/* styling for button */
+
+/* end of styling for button */
+
+/* styling for footer */
+#footer  h5{
+  color: #b6b6b6;
+  font-size:20px;
+}
+#footer-body{
+  background-color: #3f4259;
+}
+#footer{
+  position: relative;
+  color: #000000;
+  bottom: 0px;
+  width:100%;
+  display: block;
+  color: #ffffff;
+}
+ #footer-li a:link{
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 15px;
+  line-height: 30px;
+
+}
+#footer-li a:hover{
+  color: #ffb13d;
+
+}
+
+#footer-li a:visited{
+  color: #ffffff;
+
+}
+
+#footer-li a:visited:hover{
+  color: #ffb13d;
+
+}
+
+/* end of stying footer */
+
+
+/* styling for carousel */
+#carousel{
+  position: relative;
+  height:auto;
+  width: auto;
+  margin-top: 5%;
+}
+.carousel-item img{
+  width: auto;
+  position: relative;
+  height: 600px;
+  max-height: 600px;
+}
+
+@media(max-width:400px){
+  .carousel-item img{
+    width: auto;
+    height: 350px;
+    max-height: 350px;
+  }
+
+}
+
+/* end of styling for carousel */
+
+
+
+/*  styling for contact in index.php form */
+
+#contact{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+#form{
+  position: absolute;
+  font-size: 20px;
+  top: 0px;
+  line-height: 5px;
+  float: right;
+  color: #ffffff;
+  width: 50%;
+  margin-left: 48%;
+  white-space:pre-line;
+}
+
+/* end of styling for contact in index.php form */
+
+/* This style sheet for only header.html, footer.html and index.php */
